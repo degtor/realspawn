@@ -354,7 +354,7 @@ img, svg {
   margin-right: 8pt; }
 
 html {
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   color: #666;
   line-height: 1.7;
@@ -457,9 +457,9 @@ button, .button {
       color: #fff; } }
 
 .button__accent {
-  background-color: #06d19c;
-  border-color: #06d19c;
-  color: #fff; }
+  background-color: #05bd8d;
+  border-color: #05bd8d;
+  color: #000; }
   @media (min-width: 992px) {
     .button__accent:hover {
       background-color: #05bd8d;
@@ -514,7 +514,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
   width: 100%;
   transition: 0.7s;
   color: #111;
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   padding: 10pt 20pt;
   border-radius: 30px;
@@ -532,7 +532,7 @@ textarea {
   width: 100%;
   transition: 0.7s;
   color: #111;
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   padding: 12pt 24pt;
   border-radius: 30px;
@@ -552,7 +552,7 @@ select {
   width: 100%;
   transition: 0.7s;
   color: #111;
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   padding: 10pt 20pt;
   margin-bottom: 1.4em;
@@ -734,7 +734,7 @@ select {
   position: fixed;
   z-index: 100;
   width: 100%;
-  background-color: #6C63FF;
+  background-color: #1a1a21;
   transition: 0.7s; }
   .navbar--nofixed {
     position: relative;
@@ -745,7 +745,7 @@ select {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: 120px;
   color: #fff;
   transition: 0.7s; }
 
@@ -797,7 +797,7 @@ select {
 .navbar--extended {
   background-color: transparent; }
   .navbar--extended .navbar__inner {
-    height: 60px;
+    height: 120px;
     color: #ffffff; }
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
@@ -870,15 +870,15 @@ select {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.96;
+  /* opacity: 0.96; */
   z-index: 1;
-  background-color: #6C63FF; }
+  background-color: #1A1A21; }
 
-.hero__overlay--gradient {
-  background: linear-gradient(to right, #6C63FF, #4641FF); }
+/* .hero__overlay--gradient {
+  background: linear-gradient(to right, #272733, #1A1A21); } */
 
-.hero__overlay--gradientVertical {
-  background: linear-gradient(to bottom, #6C63FF, #4641FF); }
+/* .hero__overlay--gradientVertical {
+  background: linear-gradient(to bottom,#272733, #1A1A21); } */
 
 .hero__mask {
   position: absolute;
@@ -906,7 +906,9 @@ select {
 
 /*--- CONTENT STYLING ---*/
 .hero__title {
-  color: inherit;
+  color: #7B7B8F;
+  font-weight: 700;
+  font-family: 'Sora', sans-serif;
   margin-bottom: 1.25em; }
 
 .hero__text {
