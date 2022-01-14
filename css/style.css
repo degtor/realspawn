@@ -895,6 +895,8 @@ background-size: 11px 11px;
   z-index: 2; }
 
 .hero__content {
+  background: radial-gradient(33.52% 33.52% at 50% 50%,rgb(28 28 50) 0,rgba(191,9,255,0) 100%);
+  transition-duration: .4s;
   -js-display: flex;
   display: flex;
   align-items: center;
