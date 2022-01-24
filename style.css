@@ -1,0 +1,12 @@
+.realspawn-green {
+    color:  #9BD0AA;
+}
+
+body {
+    background-color: #9BD0AA;
+}
+
+#nodes {
+    position: fixed;
+    z-index: -100;
+}

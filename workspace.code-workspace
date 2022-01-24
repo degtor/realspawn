@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Documents\\realspawn"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"latex-workshop.bind.altKeymap.enabled": true
+	}
+}
