@@ -150,7 +150,7 @@ background color
 
 .bg-indigo,
 .hover-bg-indigo:hover {
-  background-color: #9BD0AA !important;
+  background-color: #9BD0AA87 !important;
 }
 
 .bg-indigo-light,
