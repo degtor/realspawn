@@ -10,3 +10,7 @@ body {
     position: fixed;
     z-index: -100;
 }
+
+.underline {
+    text-decoration-color: #9BD0AA !important;
+}
